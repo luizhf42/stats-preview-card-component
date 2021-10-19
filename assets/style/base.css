@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+
+:root {
+    --bg-color: #090b1a;
+    --card-bg: #1b1938;
+    --accent: #aa5cdb;
+    --white: #ffffff;
+    --paragraph: #ffffffbf;
+    --stat-heading: #ffffff99;
+    }
+
+* { margin: 0; padding: 0; }
+
+body {
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    font-size: 15px;
+    background: var(--bg-color);
+    font-family: 'Inter', sans-serif;
+}
