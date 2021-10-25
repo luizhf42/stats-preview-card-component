@@ -1,0 +1,47 @@
+.content {
+    box-sizing: border-box;
+    width: 50%;
+    padding: 3.5rem;
+    padding-right: 5.25rem;
+}
+
+.title {
+    font-size: 2.25rem;
+    color: var(--white);
+    margin-bottom: 1.75rem;
+}
+
+.accent {
+    color: var(--accent);
+}
+
+.description {
+    font-size: .9rem;
+    color: var(--paragraph);
+    margin-bottom: 3rem;
+}
+
+.stats-list {
+    list-style: none;
+    display: flex;
+}
+
+.stats-item {
+    display: flex;
+    flex-direction: column;
+    margin-right: 3rem;
+}
+
+.stats-count {
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: var(--white);
+    margin-bottom: .25rem;
+}
+
+.stats-heading {
+    font-family: 'Lexend Deca', sans-serif;
+    text-transform: uppercase;
+    color: var(--stat-heading);
+    font-size: .75rem;
+}

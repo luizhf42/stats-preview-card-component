@@ -1,0 +1,7 @@
+main {
+    background: var(--card-bg);
+    display: flex;
+    width: 83%;
+    height: 67.07%;
+    border-radius: 10px;
+}

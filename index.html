@@ -6,7 +6,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="assets/style/base.css">
-  <link rel="stylesheet" href="assets/style/main.css">
+  <link rel="stylesheet" href="assets/style/main/main.css">
+  <link rel="stylesheet" href="assets/style/main/image.css">
+  <link rel="stylesheet" href="assets/style/main/content.css">
   <title>Frontend Mentor | Stats preview card component</title>
 </head>
 <body>
@@ -14,15 +16,16 @@
     <div class="content">
       <h1 class="title">Get <span class="accent">insights</span> that help your business grow.</h1>
       <p class="description">Discover the benefits of data analytics and make better decisions regarding revenue, customer experience, and overall efficiency.</p>
-      <div class="stats">
-        <div class="companies-stats">
-          <p><span class="stats-count">10k+</span><span class="stat-heading">companies</span></p>
-          <div class="templates-stats"><span class="stats-count">314</span><span class="stat-heading">templates</span></div>
-          <div class="queries-stats"><span class="stats-count">12m+</span><span class="stat-heading">queries</span></div>
-        </div>
-      </div>
+      <ul class="stats-list">
+          <li class="companies-stats stats-item"><span class="stats-count">10k+</span><span class="stats-heading">companies</span></li>
+          <li class="templates-stats stats-item"><span class="stats-count">314</span><span class="stats-heading">templates</span></li>
+          <li class="queries-stats stats-item"><span class="stats-count">12m+</span><span class="stats-heading">queries</span></li>
+      </ul>
     </div>
-    <div class="image"></div>
+      <picture class="image">
+        <source media="(max-width: 400px)" srcset="assets/images/image-header-mobile.jpg" type="image/.jpeg" class="image-source">
+        <img src="assets/images/image-header-desktop.jpg" class="image-source">
+      </picture>
   </main>
 </body>
 </html>
