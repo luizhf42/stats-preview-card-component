@@ -8,6 +8,7 @@
     --white: #ffffff;
     --paragraph: #ffffffbf;
     --stat-heading: #ffffff99;
+    font-size: 15px;
     }
 
 * { margin: 0; padding: 0; }
@@ -16,7 +17,6 @@ body {
     height: 100vh;
     display: grid;
     place-items: center;
-    font-size: 15px;
     background: var(--bg-color);
     font-family: 'Inter', sans-serif;
 }

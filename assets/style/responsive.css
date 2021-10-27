@@ -1,0 +1,35 @@
+@media screen and (min-width: 1400px) {
+    :root { font-size: 16px; }
+}
+
+@media screen and (min-width: 760px) and (max-width: 1000px) {
+    :root { font-size: 14px; }
+
+    .content {
+        width: 60%;
+    }
+    .image-container {
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    body {
+        padding: 10% 0; 
+    }
+    main {
+        margin: 17% 0;
+        height: auto;
+        flex-direction: column-reverse;
+    }
+
+    .image-container {
+        width: 100%;
+        border-radius: 10px 10px 0 0;
+    }
+    
+    .image-source {
+        border-radius: 10px 10px 0 0;
+        
+    }
+}

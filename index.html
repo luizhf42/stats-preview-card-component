@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="assets/style/main/main.css">
   <link rel="stylesheet" href="assets/style/main/image.css">
   <link rel="stylesheet" href="assets/style/main/content.css">
+  <link rel="stylesheet" href="assets/style/responsive.css">
   <title>Frontend Mentor | Stats preview card component</title>
 </head>
 <body>
@@ -19,13 +20,15 @@
       <ul class="stats-list">
           <li class="companies-stats stats-item"><span class="stats-count">10k+</span><span class="stats-heading">companies</span></li>
           <li class="templates-stats stats-item"><span class="stats-count">314</span><span class="stats-heading">templates</span></li>
-          <li class="queries-stats stats-item"><span class="stats-count">12m+</span><span class="stats-heading">queries</span></li>
+          <li class="queries-stats stats-item"><span class="stats-count">12M+</span><span class="stats-heading">queries</span></li>
       </ul>
     </div>
-      <picture class="image">
-        <source media="(max-width: 400px)" srcset="assets/images/image-header-mobile.jpg" type="image/.jpeg" class="image-source">
-        <img src="assets/images/image-header-desktop.jpg" class="image-source">
-      </picture>
+      <div class="image-container">
+        <picture class="image">
+          <source media="(max-width: 400px)" srcset="assets/images/image-header-mobile.jpg" type="image/.jpeg" class="image-source">
+          <img src="assets/images/image-header-desktop.jpg" class="image-source">
+        </picture>
+      </div>
   </main>
 </body>
 </html>
