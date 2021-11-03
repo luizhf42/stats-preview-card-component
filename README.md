@@ -53,4 +53,4 @@ I will continue practicing development with CSS in general and, maybe, start wit
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/luizhf42)
+- Frontend Mentor - [@luizhf42](https://www.frontendmentor.io/profile/luizhf42)
