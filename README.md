@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Links
 
-- [Solution URL](https://your-solution-url.com)
+- [Solution URL](https://www.frontendmentor.io/solutions/stats-preview-card-component-newbie-html-and-css-v_6ZIcFHM)
 - [Live Site URL](https://luizhf42.github.io/stats-preview-card-component)
 
 ## My process
