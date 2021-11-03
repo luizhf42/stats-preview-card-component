@@ -1,14 +1,11 @@
 .image-container {
-    background: var(--accent);
+    background: url(../../images/image-header-desktop.jpg) no-repeat center / cover;
     border-radius: 0 10px 10px 0;
     width: 50%;
 }
 
-.image-source {
-    filter: blur(1px);
-    border-radius: 0 10px 10px 0;
-    width: 100%;
+.image-effect {
+    background-color: var(--accent);
     height: 100%;
-    object-fit: cover;
     mix-blend-mode: multiply;
 }
